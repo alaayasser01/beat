@@ -4,6 +4,14 @@
     padding: 0px;
     box-sizing: border-box; 
 }
+.header1 {
+    color:rgba(206, 206, 248, 0.932);
+    padding: 20px;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
 .navigation 
 {
     display: flex;
@@ -83,8 +91,68 @@
         transform: translateX(0%);
     }
 } 
+
+.topnav {
+    background-color: rgba(173, 179, 175, 0.973);
+    text-align:center;
+}
+.topnav a {
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(22, 23, 75);
+    font-weight: bolder;
+    text-align: center;
+    padding: 16px;
+}
+.topnav a:hover{
+    background-color: rgba(223, 223, 223, 0.993);
+    color: rgb(134, 133, 133);
+}
+.topnav1 {
+    background-color:  rgba(202, 150, 71, 0.966);
+    text-align:center;
+}
+.topnav1 a {
+    text-decoration: none;
+    display: inline-block;
+    color:   rgb(22, 23, 75);
+    font-weight: bolder;
+    text-align: center;
+    padding: 16px;
+}
+.topnav1 a:hover{
+    background-color: rgba(202, 150, 71, 0.966);;
+    color: rgb(134, 133, 133);
+}
+.topnav2 {
+    background-color:  rgba(160, 158, 155, 0.966);
+    text-align:center;
+}
+.topnav2 a {
+    text-decoration: none;
+    display: inline-block;
+    color:   rgb(22, 23, 75);
+    font-weight: bolder;
+    text-align: center;
+    padding: 16px;
+}
+.topnav2 a:hover{
+    background-color: rgba(134, 132, 130, 0.966);;
+    color: rgb(134, 133, 133);
+}
+.td a {
+    text-decoration: none;
+    display: inline-block;
+    color:   rgb(142, 143, 202);
+    font-weight: bolder;
+    text-align: center;
+    padding: 16px;
+
+}
+
 /* start registration  */
 h1{
+    
     font-weight: bold;
     font-size: 30px;
     color:rgb(226, 226, 226);
